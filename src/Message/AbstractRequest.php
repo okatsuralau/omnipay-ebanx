@@ -10,8 +10,8 @@ use Omnipay\Common\Exception\InvalidRequestException;
  */
 abstract class AbstractRequest extends BaseAbstractRequest
 {
-    protected $liveEndpoint = 'https://api.ebanx.com.br/ws';
-    protected $testEndpoint = 'https://staging.ebanx.com.br/ws';
+    protected $liveEndpoint = 'https://api.ebanxpay.com/ws';
+    protected $testEndpoint = 'https://sandbox.ebanxpay.com/ws';
 
     /**
      * Get the endpoint where the request should be made.
